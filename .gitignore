@@ -1,0 +1,28 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+# Neovim generated files
+**/*.bak
+**/*.swp
+**/*.swo
+**/*.shada
+**/*.undo
+
+# Neovim state directories (can vary by OS)
+/backups/
+/swap/
+/undo/
+/view/
+/shada/
+
+# Plugin/LSP/Tool generated files
+/data/
+/log/
+/syntax/
+/spell/
